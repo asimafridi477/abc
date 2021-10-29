@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Metric.Conversion</title>
+<style>
+	
+	.container
+	{width: 1550px;
+	height: auto;
+	margin: 0 auto}
+	
+	body
+	{background-image: url(PaintSwatches_1920x1234.jpg);
+	height: 100vh;
+	background-size: contain}
+	
+	.a1
+	{float:right; 
+	list-style-type: none;}
+	
+	.a1 li
+	{display: inline-block;}
+	
+	.a1 li a
+	{color: snow;
+	text-decoration: none;
+	padding: 7px 20px;
+	font-family:"roboto", sans-serif;
+	font-size: 15px;}
+	
+	.a1 li a:hover
+	{border: 1px solid snow;
+	transition: all 0.5s ease-in;
+	background-color: darkorange;s}
+	
+	
+	.aside1 tr th
+	{border: 1px solid white;	
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	border-radius: 20px;
+	padding: 30px 20px;	
+	}
+	
+	.aside3
+	{position: absolute;
+	margin-top: 230px;}
+	
+	.aside1 tr a:hover
+	{background-color: transparent;
+	color: darkgoldenrod;
+	text-decoration: underline;}
+	
+	.aside1 tr a:visited
+	{color: darkgoldenrod;
+	background-color: transparent;
+	text-decoration: none;}
+	
+	.aside1 tr a:link
+	{background-color: transparent;
+	text-decoration:none;}
+	
+	
+	.logo
+	{float: left;
+	height: auto;
+	width: 230px;
+	height: 210px}
+	
+	h1
+	{text-align: center;
+	margin-left: -80px;
+	margin-top: -100px ;	
+	text-transform: uppercase;
+	color: darkgoldenrod;
+	font-size: 70px}
+	
+	.aside2
+	{float: right;
+    margin-top: 100px;
+    margin-right: -300px;
+    text-align:center}
+	
+    .didyouknow
+	{border: 4px outset #000000;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 30px;
+    font-style: italic;}
+	
+	.conversion
+	{position: absolute;
+	margin-top: 330px;
+	margin-left: 630px;
+	}
+	
+	.Inches
+	{width: 300px;
+	height: 100px;
+	font-size: 28px;}
+	
+	#Gram
+	{width: 300px;
+	height: 100px;
+	font-size: 28px;}
+	
+	.currency
+	{width: 200px;
+	height: 40px;
+	font-size: 28px;}
+	
+	.adhere
+	{position: absolute;
+	margin-top: 745px;
+	margin-left: 10px}
+	
+.adhere img
+	{width: 210px;
+	height: 250px;}
+	
+	.heading
+	{margin-left: -8
+		0px}
+
+	
+
+	
+	
+</style>
+
+</head>
+
+<body>
+<div class="container">
+
+<header class="a2">
+    <img src="Picture1.png" class="logo">
+     <div class="a1">
+     
+     <ul>
+        	<li>
+			    <a href="Home.html">Home</a>
+			</li>
+			<li>
+				<a href="Articles.html">Articles</a>
+			</li>
+			<li>
+				<a href="FAQs.html">FAQ's</a>
+			</li>
+	</ul>
+	</div>
+</header>
+		
+<aside class="aside3">
+	<table class="aside1">
+	<tr style="background-color: black">
+		<th><a href="Length Conversion.html">Length Conversion</a></th>
+	</tr>	
+	<tr style="background-color: black">
+		<th><a href="Area Conversion.html">Area Conversion</a></th>
+	</tr>
+	<tr style="background-color: black">
+		<th><a href="Volume Conversion.html">Volume Conversion</a></th>
+	</tr>		
+	<tr style="background-color: black">
+		<th><a href="Mass Conversion.html">Mass Conversion</a></th>
+	</tr>	
+	<tr style="background-color: black">
+		<th><a href="Temperature Conversion.html">Temperture Conversion</a></th>
+	</tr>
+	<tr style="background-color: black">
+		<th><a href="Currency.html">Currency</a></th>
+	</tr>	
+	</table>
+</aside>
+
+<aside>
+	<div class="adhere">
+		<img src="download.jpg">
+		
+	</div>
+	
+</aside>
+
+
+<section class="conversion">
+<div>
+    <h1 class="heading">Currency</h1>
+	<input type="text" class="currency" id="GBP" size="10" value="" onchange="gbpfunc()"/ placeholder="🔍Pounds">
+    <label for="GBP"> GBP </label>
+
+    <br>
+
+    <input type="text" id="USD" class="currency" size="10" value="" onchange="usdfunc()"/ placeholder="🔍dollar">
+    <label for="USD"> USD </label>
+
+    <br>
+
+    <input type="text" id="EUR" class="currency" size="10" value="" onchange="eurfunc()"/ placeholder="🔍euro">
+    <label for="EUR"> EUR </label>
+
+    <br>
+
+    <input type="text" id="CAD" class="currency" size="10" value="" onchange="cadfunc()"/ placeholder="🔍cad dollar">
+    <label for="🔍CAD"> CAD </label>
+    
+    <br>
+
+    <input type="text" id="AUD" class="currency" size="10" value="" onchange="audfunc()"/ placeholder="🔍aust dollar">
+    <label for="AUD"> AUD </label>	
+	
+	<br>
+	
+	<input type="text" id="PAK" class="currency" size="10" value="" onchange="pakfunc()"/ placeholder="🔍pak rupee">
+    <label for="PAK"> PAK </label>	
+    
+    <br>
+    
+    <input type="text" id="CNY" class="currency" size="10" value="" onchange="cnyfunc()"/ placeholder="🔍chine yuan">
+    <label for="PAK"> CNY </label>	
+	
+	
+	</section>	
+	
+</div>	
+
+<script>
+var gbp, usd, eur, cad, aud, pak, cny ;
+function init()
+{
+    gbp = document.getElementById("GBP");
+    usd = document.getElementById("USD");
+    eur = document.getElementById("EUR");
+    cad = document.getElementById("CAD");
+    aud = document.getElementById("AUD");
+	pak = document.getElementById("PAK");
+	cny = document.getElementById("CNY");
+
+}
+
+function gbpfunc()
+{
+    usd.value = parseFloat(gbp.value) * 0.76;
+    eur.value = parseFloat(gbp.value) * 0.85;
+    cad.value = parseFloat(gbp.value) * 0.76;
+    aud.value = parseFloat(gbp.value) * 0.53;
+	pak.value = parseFloat(gbp.value) * 0.0054;
+	cny.value = parseFloat(gbp.value) * 0.11
+}
+
+function eurfunc()
+{
+    gbp.value = parseFloat(eur.value) * 1.17;
+    usd.value = parseFloat(eur.value) * 0.88;
+    cad.value = parseFloat(eur.value) * 0.66;
+    aud.value = parseFloat(eur.value) * 0.62;
+	pak.value = parseFloat(eur.value) * 0.0063;
+	cny.value = parseFloat(eur.value) * 0.13
+}
+
+function cadfunc()
+{
+    gbp.value = parseFloat(cad.value) * 1.76;
+    usd.value = parseFloat(cad.value) * 1.33;
+    eur.value = parseFloat(cad.value) * 1.51;
+    aud.value = parseFloat(cad.value) * 0.94;
+	pak.value = parseFloat(cad.value) * 0.0095;
+	cny.value = parseFloat(cad.value) * 0.20
+}
+
+function audfunc()
+{
+    gbp.value = parseFloat(aud.value) * 1.88;
+    usd.value = parseFloat(aud.value) * 1.42;
+    eur.value = parseFloat(aud.value) * 1.60;
+    cad.value = parseFloat(aud.value) * 1.06;  
+	pak.value = parseFloat(aud.value) * 0.010;
+	cny.value = parseFloat(aud.value) * 0.21
+}
+
+function usdfunc()
+{
+    gbp.value = parseFloat(usd.value) * 1.32;
+    eur.value = parseFloat(usd.value) * 1.13;
+    cad.value = parseFloat(usd.value) * 0.75;
+    aud.value = parseFloat(usd.value) * 0.71;
+	pak.value = parseFloat(usd.value) * 0.0072;
+	cny.value = parseFloat(usd.value) * 0.15
+}
+	
+function pakfunc()
+{
+    gbp.value = parseFloat(pak.value) * 183.89;
+    eur.value = parseFloat(pak.value) * 157.97;
+    cad.value = parseFloat(pak.value) * 104.83;
+    aud.value = parseFloat(pak.value) * 98.53;
+	usd.value = parseFloat(pak.value) * 139.56;
+	cny.value = parseFloat(pak.value) * 20.79
+}
+	
+function cnyfunc()	
+{
+	gbp.value = parseFloat(cny.value) * 8.89;
+    eur.value = parseFloat(cny.value) * 7.60;
+    cad.value = parseFloat(cny.value) * 5.04;
+    aud.value = parseFloat(cny.value) * 4.74;
+	usd.value = parseFloat(cny.value) * 6.71;
+	pak.value = parseFloat(cny.value) * 20.71;
+}
+
+init();
+	
+	
+	
+</script>
+	
+	
+	
+		
+<aside class="aside2">
+		<div class="didyouknow">
+			<h3 style="text-decoration:overline underline">Did You know</h3>
+			<p style="color: blue">The first known currency was created by King Alyattes in Lydia, now part of Turkey, in 600BC. The first coin ever minted features a roaring lion. Coins then evolved into bank notes around 1661 AD. The first credit card was introduced in 1946.</p>
+			<img src="BITCOINS_2717656b.jpg" style="width: 290px">
+			
+			
+			
+		</div>
+	</aside>
+</div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Metric.Conversion</title>
+<style>
+	.container
+	{width: 100%;
+	height: auto;
+	margin: 0 auto}
+	
+	body
+	{background-image: url(PaintSwatches_1920x1234.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: contain}
+	
+	.a1
+	{float:right; 
+	list-style-type: none;}
+	
+	.a1 li
+	{display: inline-block;}
+	
+	.a1 li a
+	{color: snow;
+	text-decoration: none;
+	padding: 7px 20px;
+	font-family:"roboto", sans-serif;
+	font-size: 15px;}
+	
+	.a1 li a:hover
+	{border: 1px solid snow;
+	transition: all 0.5s ease-in;
+	background-color: darkorange;}
+	
+	
+	.aside1 tr th
+	{border: 1px solid white;	
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	border-radius: 20px;
+	padding: 30px 20px;	
+	}
+	
+	.aside3
+	{position: absolute;
+	margin-top: 230px;}
+	
+	.aside1 tr a:hover
+	{background-color: transparent;
+	color: darkgoldenrod;
+	text-decoration: underline;}
+	
+	.aside1 tr a:visited
+	{color: darkgoldenrod;
+	background-color: transparent;
+	text-decoration: none;}
+	
+	.aside1 tr a:link
+	{background-color: transparent;
+	text-decoration:none;}
+	
+	
+	.logo
+	{float: left;
+	height: auto;
+	width: 230px;
+	height: 210px}
+	
+	h1
+	{text-align: center;
+	margin-left: -0px;
+	margin-top: -100px ;	
+	text-transform: uppercase;
+	color: darkgoldenrod;
+	font-size: 70px}
+	
+	.conversion
+	{position: absolute;
+	margin-top: 330px;
+	margin-left: 550px;
+	}
+	
+	.Inches
+	{width: 300px;
+	height: 100px;
+	font-size: 28px;}
+	
+	#Gram
+	{width: 300px;
+	height: 100px;
+	font-size: 28px;}
+	
+
+	
+	
+</style>
+
+</head>
+
+<body>
+<div class="container">
+
+<header class="a2">
+    <img src="Picture1.png" class="logo">
+     <div class="a1">
+     
+     <ul>
+        	<li>
+			    <a href="Home.html">Home</a>
+			</li>
+			<li>
+				<a href="Articles.html">Articles</a>
+			</li>
+			<li>
+				<a href="FAQs.html">FAQ's</a>
+			</li>
+	</ul>
+	</div>
+</header>
+		
+<aside class="aside3">
+	<table class="aside1">
+	<tr style="background-color: black">
+		<th><a href="Length Conversion.html">Length Conversion</a></th>
+	</tr>	
+	<tr style="background-color: black">
+		<th><a href="Area Conversion.html">Area Conversion</a></th>
+	</tr>
+	<tr style="background-color: black">
+		<th><a href="Volume Conversion.html">Volume Conversion</a></th>
+	</tr>		
+	<tr style="background-color: black">
+		<th><a href="Mass Conversion.html">Mass Conversion</a></th>
+	</tr>	
+	<tr style="background-color: black">
+		<th><a href="Temperature Conversion.html">Temperture Conversion</a></th>
+	</tr>
+	<tr style="background-color: black">
+		<th><a href="Currency.html">Currency</a></th>
+	</tr>	
+	</table>
+</aside>
+
+<section class="conversion">
+<div>
+	<h1>cubic yards <br> to <br> cubic meters</h1>
+	<input class="Inches" type="number" placeholder="🔍cubic yards" oninput="temperatureConverter(this.value)"  onchange="temperatureConverter(this.value)"/> →
+        <input id="Gram" class="Milimeter" type="number" placeholder="🔍cubic meters" />
+
+<script>
+function temperatureConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("Gram").value=(valNum)/1.308;}	
+</script>
+		
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

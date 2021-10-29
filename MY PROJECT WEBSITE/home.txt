@@ -1,0 +1,346 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Metric.Conversion</title>
+<style>
+	body
+	{background-image: url(PaintSwatches_1920x1234.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: contain}
+	
+	.a1
+	{float:right; 
+	list-style-type: none;}
+	
+	.a1 li
+	{display: inline-block;}
+	
+	.a1 li a
+	{color: snow;
+	text-decoration: none;
+	padding: 7px 20px;
+	font-family:"roboto", sans-serif;
+	font-size: 15px;}
+	
+	.a1 li a:hover
+	{border: 1px solid snow;}
+	
+	
+	.aside1 tr th
+	{border: 3px solid white;
+	padding-bottom: 40px;
+	text-align: center;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	}
+	
+	.aside3
+	{position: absolute;
+	margin-top: 230px;
+	background-color: black}
+	
+	.aside1 tr a:hover
+	{background-color: transparent;
+	color: darkgoldenrod;
+	text-decoration: underline;}
+	
+	.aside1 tr a:visited
+	{color:blue;
+	background-color: transparent;
+	text-decoration: none;}
+	
+	.aside1 tr a:link
+	{background-color: transparent;
+	text-decoration: none;}
+	
+	.logo
+	{float: left;
+	height: auto;
+	width: 230px;
+	height: 210px}
+	
+	.section1,th,td
+	{border: 4px solid black;
+	border-collapse: collapse;	
+	}
+	
+	
+	section
+	{position: absolute;
+	margin-top: 230px;
+	margin-left: 330px;
+	font-family:Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	}
+	
+	.conversion
+	{background-color: orange}
+	
+	.aside2
+	{float: right;
+	margin-top: 250px;
+	margin-right: -250px;
+	text-align:center}
+	
+	.didyouknow
+	{border: 4px outset #000000;
+	border-radius: 20px;
+	width: 300px;
+	font-size: 30px;
+	font-style: italic;}
+	
+	
+	.tablerow:hover
+	{background-color:sandybrown;}
+	
+	
+	
+	</style>
+
+
+
+
+</head>
+
+<body>
+<header class="a2">
+    <img src="Picture1.png" class="logo">
+     <div class="a1">
+     
+     <ul>
+        	<li>
+			    <a href="Home.html">Home</a>
+			</li>
+			<li>
+				<a href="#">About Us</a>
+			</li>
+			<li>
+				<a href= "FAQs.html">FAQ's</a>
+			</li>
+	</ul>
+	</div>
+</header>
+	
+<aside class="aside3">
+	<table class="aside1">
+	<tr>
+		<th><a href="Length Conversion.html">Length Conversion</a></th>
+	</tr>	
+	<tr>
+		<th><a href="Area Conversion.html">Area Conversion</a></th>
+	</tr>
+	<tr>
+		<th><a href="Volume Conversion.html">Volume Conversion</a></th>
+	</tr>		
+	<tr>
+		<th><a href="Mass Conversion.html">Mass Conversion</a></th>
+	</tr>	
+	<tr>
+		<th><a href="Temperature Conversion.html">Temperture Conversion</a></th>
+	</tr>	
+	</table>
+	
+
+</aside>
+	
+	
+<section>
+	<table class="section1" style="width:1000px">
+		<tr>
+			<th class="conversion" colspan="6">Length Conversion</th> 
+		</tr>
+		<tr class="tablerow">
+			<td>1 inchs</td>
+			<td>=</td>
+			<td>25.4 millimeter</td>
+			<td>1 in</td>
+			<td>=</td>
+			<td>25.4</td>
+		</tr>
+		<tr class="tablerow">
+			<td>1 feet</td>
+			<td>=</td>
+			<td>0.3048 meters</td>
+			<td>1 ft</td>
+			<td>=</td>
+			<td>0.3048</td>
+			
+        </tr>
+		<tr class="tablerow">
+			<td>1 yard</td>
+			<td>=</td>
+			<td>0.914 meters</td>
+			<td>1 yd</td>
+			<td>=</td>
+			<td>0.9144</td>
+		</tr>
+		<tr class="tablerow">
+			<td>1 miles</td>
+			<td>=</td>
+			<td>1.609 kilometers</td>
+			<td>1 mi</td>
+			<td>=</td>
+			<td>1.60934</td>
+		</tr>
+		
+		<tr  class="tablerow">
+			<th class="conversion" colspan="6">Area Conversion</th>
+		</tr>
+		<tr class="tablerow">
+			<td>1 Square inches</td>
+			<td>=</td>
+			<td>2.491e-10 Square mile</td>
+			<td>1 Sq.in</td>
+			<td>=</td>
+			<td>2.491e-10</td>
+		</tr>
+		<tr class="tablerow">
+			<td>1 Square feet</td>
+			<td>=</td>
+			<td>0.92903 Square meters</td>
+			<td>1 Sq.feet</td>
+			<td>=</td>
+			<td>0.092903</td>
+		</tr>
+		<tr class="tablerow">
+			<td>1 Square yards</td>
+			<td>=</td>
+			<td>0.836127 Square meters</td>
+			<td>1 Sq.yd</td>
+			<td>=</td>
+			<td>0.836127</td>
+		</tr>
+		<tr class="tablerow">
+			<td>1 Acres</td>
+			<td>=</td>
+			<td>0.404686</td>
+			<td>1 ac</td>
+			<td>=</td>
+			<td>0.404686</td>
+		</tr>
+		<tr class="tablerow">
+			<td>1 Square miles</td>
+			<td>=</td>
+			<td>2.58999 Square kilometers</td>
+			<td>1 Sq.mi</td>
+			<td>=</td>
+			<td>2.58999</td>
+		</tr>
+		
+		<tr class="tablerow">
+			<th class="conversion" colspan="6">Volume Conversion</th>
+		</tr>
+		<tr class="tablerow">
+			<td>1 fluid ounces</td>
+			<td>=</td>
+			<td>29.5735 millimeters</td>
+			<td>1 fl.oz</td>
+			<td>=</td>
+			<td>29.5735</td>
+		</tr>
+		<tr class="tablerow">
+			<td>1 gallon</td>
+			<td>=</td>
+			<td>4.54609 liters</td>
+			<td>1 gal.</td>
+			<td>=</td>
+			<td>4.54609</td>
+		</tr>
+		<tr class="tablerow">
+			<td>1 cubic feet</td>
+			<td>=</td>
+			<td>0.283168</td>
+			<td>1 ft</td>
+			<td>=</td>
+			<td>0.283168</td>
+		</tr>
+		<tr class="tablerow">
+			<td>1 cubic yards</td>
+			<td>=</td>
+			<td>0.764555 cubic meters</td>
+			<td>1 m^3</td>
+			<td>=</td>
+			<td>0.764555</td>
+		</tr>
+		
+		<tr class="tablerow">
+			<th class="conversion" colspan="6">Mass Conversion</th>
+		</tr>
+		<tr class="tablerow">
+			<td>1 ounces </td>
+			<td>=</td>
+			<td>28.3495 grams</td>
+			<td>1 It.</td>
+			<td>=</td>
+			<td>28.3495</td>
+		</tr>
+		<tr class="tablerow">
+			<td>1 pounds</td>
+			<td>=</td>
+			<td>0.453592 kilograms</td>
+			<td>1 lb</td>
+			<td>=</td>
+			<td>0.453592</td>
+		</tr>
+		<tr class="tablerow">
+			<td>1 short ton</td>
+			<td>=</td>
+			<td>0.907185</td>
+			<td>1 short ton</td>
+			<td>=</td>
+			<td>0.907185</td>
+		</tr>
+		
+		<tr class="tablerow">
+			<th class="conversion" colspan="6">Temperature Conversion</th>
+		</tr>
+		<tr class="tablerow">
+			<td>1 *Fahrenheit</td>
+			<td>=</td>
+			<td>-17.77778 Celsius</td>
+			<td>1</td>
+			<td>=</td>
+			<td>-17.77778</td>
+		</tr>
+		<tr class="tablerow">
+			<td>1 *Celius</td>
+			<td>=</td>
+			<td>33.8 *Fahrenheit</td>
+			<td>1 *C</td>
+			<td>=</td>
+			<td>33.8</td>
+		</tr>
+		
+	</table>
+	</section>
+	
+	<aside class="aside2">
+		<div class="didyouknow" >
+			<h3 style="text-decoration:overline underline">Did You know</h3>
+			<p style="color: blue">The first practical realisation of the metric system came in 1799, during the French Revolution, when the existing system of measures, which had become impractical for trade, was replaced by a decimal system based on the kilogram and the metre.</p>
+			<img src="pic1.webp" style="width: 290px">
+			
+			
+			
+		</div>
+	</aside>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>
